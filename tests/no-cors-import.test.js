@@ -1,7 +1,7 @@
 import { RuleTester } from 'eslint';
 import rule from '../lib/rules/no-cross-import';
 
-const options = [{"scopeRegex":  "\\bpackages\\/(?<namespace>.*?)\\/", "allow": ["shared"]}];
+const options = [{"scopeRegex":  "\\bpackages\\/(?<scope>.*?)\\/", "allow": ["shared"]}];
 const parserOptions = { ecmaVersion: 6, sourceType: "module" };
 const ruleTester = new RuleTester();
 const filename = 'packages/test/some/file.js';

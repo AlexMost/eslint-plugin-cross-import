@@ -19,7 +19,7 @@ Let's consider we have this configuration in `.eslintrc`:
   "plugins": ["cross-import"],
   "rules": {
     "cross-import/no-cross-import": ["error",
-      {"scopeRegex":  "\\bpackages\\/(?<namespace>.*?)\\/", "allow": ["shared"]}
+      {"scopeRegex":  "\\bpackages\\/(?<scope>.*?)\\/", "allow": ["shared"]}
     ]
   }
 }
@@ -37,7 +37,7 @@ import b from 'packages/package2/lib/js'
 
 ## Options
 ### *scopeRegex*: string (is required)
-Regular expression which must contain `namespace` named grop. This is how the restricted scope is defined.
+Regular expression which must contain `scope` named grop. This is how the restricted scope is defined.
 
 ### allow: string[]
 An array of allowed scopes (namesaces).
