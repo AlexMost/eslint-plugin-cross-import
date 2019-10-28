@@ -1,6 +1,6 @@
-# eslint-plugin-deprecate
+# eslint-plugin-cross-import
 
-[![NPM version](http://img.shields.io/npm/v/eslint-plugin-deprecate.svg)](https://www.npmjs.com/package/eslint-plugin-deprecate)
+[![NPM version](http://img.shields.io/npm/v/eslint-plugin-cross-import.svg)](https://www.npmjs.com/package/eslint-plugin-cross-import)
 
 This plugin helps you to refactor your codebase.
 
