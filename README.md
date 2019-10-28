@@ -18,7 +18,7 @@ Next, install `eslint-plugin-cross-import`:
 $ npm install eslint-plugin-cross-import --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-deprecate` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-cross-import` globally.
 
 ## Usage
 
