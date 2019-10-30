@@ -25,7 +25,7 @@ Let's consider we have this configuration in `.eslintrc`:
 }
 ```
 
-Imports from `package1` to `package2` will raise the error. But import from `shared`.
+Imports from `package1` to `package2` will raise the error. But import from `shared`. It is important to use a named capture group in `scopeRegex` to define the scope.
 
 ### The following patterns are considered as errors:
 
